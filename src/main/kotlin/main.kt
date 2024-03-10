@@ -67,7 +67,7 @@ fun authenticateClientName(username: String): Client? {
 
 // Меню админа
 fun adminMenu(admin: Admin) {
-    val list = mutableListOf("Вывести меню", "Добавить блюдо", "Изменить блюдо", "Удалить блюдо", "Выручка", "Пользователей онлайн", "Выход из личного кабинета")
+    val list = mutableListOf("Вывести меню", "Добавить блюдо", "Изменить блюдо", "Удалить блюдо", "Выручка", "Посетителей всего", "Выход из личного кабинета")
     while (true) {
         val choice = Functions.printList("Все функции:", list)
         when (choice) {
